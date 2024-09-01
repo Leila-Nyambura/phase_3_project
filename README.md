@@ -18,6 +18,11 @@ SyriaTel has been experiencing a significant number of customers leaving the com
 ### Dataset Choice
 The dataset used in this project contains a variety of customer information, including usage patterns, service plans, and interactions with customer service. The data provides a comprehensive view of customer behavior and their interactions with SyriaTel's services, which are crucial for identifying churn drivers and predicting churn accurately.
 
+The image represents the customer churn from the dataset:
+
+![alt text](images/image_1.png)
+
+
 ## 3. Modeling
 ### Approach
 To predict customer churn, we utilized classification models. Classification is particularly useful in this context as it allows us to categorize customers into those who are likely to churn and those who are not. This binary classification problem was approached using three models:
@@ -40,8 +45,7 @@ To predict customer churn, we utilized classification models. Classification is 
  - **Hyperparameter Tuning:** The Decision Tree model was fine-tuned using GridSearchCV to find the optimal parameters that balance model complexity and performance.
 
 ## 4. Evaluation
-
-Key Metrics
+### Key Metrics
 
 The performance of each model was evaluated using the following metrics:
 
